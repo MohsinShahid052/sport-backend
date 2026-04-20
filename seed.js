@@ -347,7 +347,7 @@ const regularUsers = [
 
 async function seed() {
   try {
-    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/sportsstore', {
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/sports-store', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
